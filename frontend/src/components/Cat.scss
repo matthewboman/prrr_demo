@@ -1,0 +1,73 @@
+.cat {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+
+  .cat-name {
+    margin-top: 0;
+  }
+
+  .image-container {
+    width: 450px;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  .cat-bio {
+
+  }
+
+  .kills {
+
+    .kills-label {
+      font-weight: bold;
+    }
+    .kill-count {
+
+    }
+  }
+
+  .buttons {
+    margin-top: 10px;
+
+    .edit {
+      margin-right: 20px;
+      padding: 0;
+      height: 30px;
+      width: 60px;
+      border-width: 0;
+      outline: none;
+      border-radius: 2px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+      background-color: #2ecc71;
+      color: #ecf0f1;
+      transition: background-color .3s;
+
+      &:hover, &:focus {
+        background-color: #27ae60;
+      }
+    }
+
+    .delete {
+      margin-right: 20px;
+      padding: 0;
+      height: 30px;
+      width: 60px;
+      border-width: 0;
+      outline: none;
+      border-radius: 2px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+      background-color: #e74c3c;
+      color: #ecf0f1;
+      transition: background-color .3s;
+
+      &:hover, &:focus {
+        background-color: #c0392b;
+      }
+    }
+  }
+}

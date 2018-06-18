@@ -1,0 +1,17 @@
+[package]
+name = "prrr_demo"
+version = "0.1.0"
+authors = ["crashspingfield <ccrsh@riseup.net>"]
+
+[dependencies]
+diesel = { version = "1.2.2", features = ["postgres"] }
+dotenv = "0.11.0"
+r2d2 = "0.8.2"
+r2d2-diesel = "1.0.0"
+serde = "1.0.43"
+serde_derive = "1.0.43"
+serde_json = "1.0.16"
+rocket = "0.3.9"
+rocket_codegen = "0.3.9"
+rocket_contrib = { version = "0.3.9", default-features = false, features = ["json"] }
+rocket_cors = "0.2.3"

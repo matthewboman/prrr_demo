@@ -1,0 +1,53 @@
+.edit-cat {
+
+  input, textarea {
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:300px;
+    border:none;
+    border-bottom:1px solid #757575;
+
+    &:focus {
+      outline:none;
+    }
+  }
+
+  textarea {
+    rows: 5;
+  }
+
+  label {
+    color:#999;
+    font-size:18px;
+    font-weight:normal;
+    pointer-events:none;
+    left:5px;
+    top:10px;
+    transition:0.2s ease all;
+    -moz-transition:0.2s ease all;
+    -webkit-transition:0.2s ease all;
+  }
+
+  .buttons {
+    margin-top: 10px;
+
+    .edit {
+      margin-right: 20px;
+      padding: 0;
+      height: 30px;
+      width: 80px;
+      border-width: 0;
+      outline: none;
+      border-radius: 2px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+      background-color: #2ecc71;
+      color: #ecf0f1;
+      transition: background-color .3s;
+
+      &:hover, &:focus {
+        background-color: #27ae60;
+      }
+    }
+  }
+}
