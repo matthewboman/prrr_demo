@@ -9,6 +9,8 @@ PRRR stack (Postgres, Rust, Rocket, React) is a functionalish<sup>[1](#functiona
 5. Two-way data binding is awful and adds unnecessary complexity with no benefit, so Angular and Vue were out of the picture. Also, see reason 2.
 
 ## Getting Started
+If you'd like a step-by-step guide, check out the introductory articles for [the backend](https://medium.com/@ccrsh/introducing-prrrstack-d617ff518ba6) and [frontend](https://medium.com/@ccrsh/introducing-prrrstack-pt-2-24704b5763b2).
+
 Rocket requires the nightly version of Rust to run, so make sure you have it installed. You'll also want to ensure you're using it in this project's directory.
 
     curl -s https://static.rust-lang.org/rustup.sh | sh -s -- --channel=nightly
@@ -35,4 +37,4 @@ The server runs at `localhost:8000` and the SPA runs at `localhost:3000`.
 
 
 
-<a name="functionalish">1</a>: Though neither are strictly functional, Rust has written into the language a bias against mutation, and React's unidirectional flow and stateless functional components bias a more functional programming style. 
+<a name="functionalish">1</a>: Though neither are strictly functional, Rust has written into the language a bias against mutation, and React's unidirectional flow and stateless functional components bias a more functional programming style.

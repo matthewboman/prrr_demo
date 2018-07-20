@@ -30,10 +30,10 @@ export default {
 
   deleteCat: cat_id => axios.delete(`${base_url}/${cat_id}`)
     .then(res => {
-      if (res.status === 204) {
+      if (res.status === 200 || res.status === 204) {
         return res.data.result
       }
-      // throw new Error(res.error)
+      throw new Error(res.error)
     })
 
 }
