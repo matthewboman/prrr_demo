@@ -4,9 +4,8 @@ PRRR stack (Postgres, Rust, Rocket, React) is a functionalish<sup>[1](#functiona
 ## Why PrrrStack?
 1. Marketing. Stacks are a good introduction to concepts, but more importantly, they're a marketing technique that allows one to gloss over the decision-making process on a technology-by-technology basis in favor of a one-size-fits-all solution.
 2. Cats. Though Diesel does a lot of the heavy lifting as an ORM, it doesn't get to be part of the acronym because we lose the pun, but feel free to start marketing the PRRR-D (pronounced purdy) Stack. Web development definitely needs more bandwagons.
-3. Fuck Oracle.
-4. Rust is a fast and reliable systems language, and Rocket makes writing a server extremely approachable for someone with no low-level experience.
-5. Two-way data binding is awful and adds unnecessary complexity with no benefit, so Angular and Vue were out of the picture. Also, see reason 2.
+3. Rust is a fast and reliable systems language, and Rocket makes writing a server extremely approachable for someone with no low-level experience.
+4. Two-way data binding is awful and adds unnecessary complexity with no benefit, so Angular and Vue were out of the picture. Also, see reason 2.
 
 ## Getting Started
 If you'd like a step-by-step guide, check out the introductory articles for [the backend](https://medium.com/@ccrsh/introducing-prrrstack-d617ff518ba6) and [frontend](https://medium.com/@ccrsh/introducing-prrrstack-pt-2-24704b5763b2).
